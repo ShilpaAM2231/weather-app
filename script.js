@@ -9,7 +9,7 @@ result.innerHTML = "⚠ Please enter a city name"
 return
 }
 
-const apiKey = "5fa48fefcbe40e2cdc7818656227d847"
+const apiKey = "XXXXXXXXX"
 
 const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
 
